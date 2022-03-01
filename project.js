@@ -13,7 +13,7 @@ let citySelection = cityGenerator(city);
 let restaurant = ["Yard House", "P.F. Chang's", "Bonefish Grill", "Maggiano's Little Italy", "The Cheesecake Factory", "Pappadeaux Seafood Kitchen", "Benihana"];
 
 function restaurantGenerator(selectionOfRestaurant){
-     selectionOfCity[Math.floor(Math.random()*selectionOfCity.length)]
+    return selectionOfRestaurant[Math.floor(Math.random()*selectionOfCity.length)]
 }
 
 let restaurantSelection = restaurantGenerator(restaurant);
@@ -21,7 +21,7 @@ let restaurantSelection = restaurantGenerator(restaurant);
 let transportation = ["Bus", "Train", "Owned Car", "Rental Car", "Bike", "Motorcycle"];
 
 function vehicleGenerator(selectionOfVehicle){
-    selectionOfVehicle[Math.floor(Math.random()*selectionOfVehicle.length)]
+    return selectionOfVehicle[Math.floor(Math.random()*selectionOfVehicle.length)]
 }
 
 let vehicleSelection = vehicleGenerator(transportation);
