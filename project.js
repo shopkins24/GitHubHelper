@@ -13,7 +13,7 @@ let citySelection = cityGenerator(city);
 let restaurant = ["Yard House", "P.F. Chang's", "Bonefish Grill", "Maggiano's Little Italy", "The Cheesecake Factory", "Pappadeaux Seafood Kitchen", "Benihana"];
 
 function restaurantGenerator(selectionOfRestaurant){
-    return selectionOfCity[Math.floor(Math.random()*selectionOfCity.length)]
+     selectionOfCity[Math.floor(Math.random()*selectionOfCity.length)]
 }
 
 let restaurantSelection = restaurantGenerator(restaurant);
